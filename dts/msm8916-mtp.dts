@@ -1,0 +1,11 @@
+// SPDX-License-Identifier: GPL-2.0-only
+
+/dts-v1/;
+
+/include/ "msm8916.dtsi"
+
+/ {
+	model = "Marshall London";
+	compatible = "marshall,london", "qcom,msm8916-mtp",
+		     "qcom,msm8916", "lk2nd,device";
+};
